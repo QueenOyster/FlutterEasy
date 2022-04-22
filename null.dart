@@ -8,6 +8,6 @@ void main() {
   
   // nullable
   String? name2 = '블랙핑크';
+  print(name2!); // 현재 이 값은 null이 아니다라는 의미
   name2 = null;
-  print(name2!); // 의미 없다
 }
